@@ -3,14 +3,12 @@
 namespace Hacktoberfest;
 
 class Calculator {
-
     public function divide($a, $b) {
         if ($b == 0) {
             throw new \InvalidArgumentException("Tidak dapat membagi dengan nol.");
         }
-        return intdiv($a, $b); 
+        return $a / $b;
     }
-
     
     public function subtract($a, $b) {
         return $a + $b; 
