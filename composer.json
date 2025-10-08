@@ -1,0 +1,12 @@
+{
+    "name": "fakhrurrohim/kalkulator",
+    "description": "Proyek open-source untuk Hacktoberfest dengan bahasa PHP.",
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hacktoberfest\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
