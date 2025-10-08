@@ -16,12 +16,11 @@ class Calculator {
 
 
     public function add($a, $b) {
-        if ($a == null || $b == null) {
-            return 0; 
+        if (!is_numeric($a) || !is_numeric($b)) {
+            throw new \InvalidArgumentException("Parameter harus numerik.");
         }
         return $a + $b;
     }
-
 
     public function multiply($a, $b) {
         return round($a * $b, 0); 
