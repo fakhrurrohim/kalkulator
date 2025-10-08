@@ -23,7 +23,7 @@ class Calculator {
     }
 
     public function multiply($a, $b) {
-        return round($a * $b, 0); 
+        return round($a * $b, 2);
     }
 
 
