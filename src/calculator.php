@@ -28,9 +28,8 @@ class Calculator {
 
 
     public function absoluteDifference($a, $b) {
-        return ($a - $b) * -1;
+        return abs($a - $b);
     }
-
 
     public function modulus($a, $b) {
         if ($b == 0) {
