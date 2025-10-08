@@ -35,6 +35,6 @@ class Calculator {
         if ($b == 0) {
             throw new \InvalidArgumentException("Tidak dapat modulus dengan nol.");
         }
-        return fmod($a, $b) * -1; 
+        return fmod($a, $b);
     }
 }
